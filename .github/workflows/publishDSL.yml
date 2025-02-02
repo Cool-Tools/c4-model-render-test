@@ -1,0 +1,29 @@
+name: HTML Report
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths: 
+      - model
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+    - name: Build the report
+      run: >-
+        docker run --rm -i
+        -v "$(pwd)/dsl-samples":/usr/local/working 
+        docker.io/stevekay72/c4-model-render:latest
+        big-bank-plc.dsl output
+    - name: Commit the html
+      run: |
+        git config --global user.name "Archi"
+        git add output
+        git diff-index --quiet HEAD || git commit -m 'Update html'
+        git push
