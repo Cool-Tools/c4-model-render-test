@@ -2,8 +2,8 @@ name: HTML Report
 
 on:
   workflow_dispatch:
-#  push:
-#    branches: [ main ]
+  push:
+    branches: [ main ]
 #    paths: 
 #      - dsl-samples
 
