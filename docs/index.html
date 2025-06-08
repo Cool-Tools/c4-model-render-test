@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <title>Container Views</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+      margin: 2em;
+    }
+
+    h1 {
+      margin-bottom: 1.5em;
+      font-size: 2em;
+      color: #2c3e50;
+    }
+
+    details.view {
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      background: #ffffff;
+      padding: 1em;
+      margin-bottom: 2em;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    details[open] summary::marker {
+      color: #3498db;
+    }
+
+    summary {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-bottom: 0.5em;
+      cursor: pointer;
+    }
+
+    .element {
+      margin-top: 1.2em;
+      padding-bottom: 1em;
+      border-bottom: 1px dashed #ccc;
+    }
+
+    .element:last-child {
+      border-bottom: none;
+    }
+
+    .element img {
+      width: 300px;
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 0.5em;
+      border: 1px solid #e1e1e1;
+      background: #fff;
+      border-radius: 4px;
+    }
+
+    .element strong {
+      display: block;
+      font-size: 1.1em;
+      margin-bottom: 0.2em;
+    }
+
+    .element small {
+      color: #777;
+    }
+
+    .relationships {
+      border-top: 1px dashed #ccc;
+      margin-top: 1em;
+      padding-top: 1em;
+    }
+
+    .relationships h4 {
+      margin-bottom: 0.5em;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Container Views</h1>
+  <div id="container-views"></div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
