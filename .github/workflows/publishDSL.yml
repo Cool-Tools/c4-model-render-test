@@ -5,7 +5,7 @@ on:
   push:
     branches: [ main ]
     paths: 
-      - model
+      - dsl-samples
 
 jobs:
 
