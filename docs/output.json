@@ -30,7 +30,7 @@
         "instances" : "1",
         "name" : "Web Browser",
         "properties" : {
-          "structurizr.dsl.identifier" : "d4ff1103-a89b-4917-a4fd-f9d5437de6e0"
+          "structurizr.dsl.identifier" : "b3720b7e-2b62-4fa7-b0df-7d7003aee637"
         },
         "tags" : "Element,Deployment Node",
         "technology" : "Chrome, Firefox, Safari, or Edge"
@@ -84,7 +84,7 @@
           "instances" : "1",
           "name" : "Apache Tomcat",
           "properties" : {
-            "structurizr.dsl.identifier" : "94ee9a27-cd80-482d-93d5-dc96e92d119c"
+            "structurizr.dsl.identifier" : "7c3335eb-6279-4ab0-9a67-9a8c7b3884a6"
           },
           "tags" : "Element,Deployment Node",
           "technology" : "Apache Tomcat 8.x"
@@ -94,7 +94,7 @@
         "instances" : "1",
         "name" : "Docker Container - Web Server",
         "properties" : {
-          "structurizr.dsl.identifier" : "1032b5f6-ec80-4c7b-95ec-53f76ad69dec"
+          "structurizr.dsl.identifier" : "24aa7904-f9ae-4702-bbde-893430e2242b"
         },
         "tags" : "Element,Deployment Node",
         "technology" : "Docker"
@@ -116,7 +116,7 @@
           "instances" : "1",
           "name" : "Database Server",
           "properties" : {
-            "structurizr.dsl.identifier" : "8bfa880e-169d-4054-bdb3-03c04d60113f"
+            "structurizr.dsl.identifier" : "e81c416b-d096-4315-9e2d-9de95970da77"
           },
           "tags" : "Element,Deployment Node",
           "technology" : "Oracle 12c"
@@ -126,7 +126,7 @@
         "instances" : "1",
         "name" : "Docker Container - Database Server",
         "properties" : {
-          "structurizr.dsl.identifier" : "af976ed9-a881-415d-b5b0-2f275e2a9e7b"
+          "structurizr.dsl.identifier" : "347ad4e9-e237-4b9b-8405-0e9579163002"
         },
         "tags" : "Element,Deployment Node",
         "technology" : "Docker"
@@ -136,7 +136,7 @@
       "instances" : "1",
       "name" : "Developer Laptop",
       "properties" : {
-        "structurizr.dsl.identifier" : "3f7b733c-938b-42cf-8c9a-3eb02c7c7033"
+        "structurizr.dsl.identifier" : "d7beaa6d-e4dc-422b-b0a5-ee2ac2416fe3"
       },
       "tags" : "Element,Deployment Node",
       "technology" : "Microsoft Windows 10 or Apple macOS"
@@ -147,7 +147,7 @@
         "instances" : "1",
         "name" : "bigbank-dev001",
         "properties" : {
-          "structurizr.dsl.identifier" : "b1c37f68-e94f-4c24-8ffe-adac73f1a8d3"
+          "structurizr.dsl.identifier" : "cdd3939e-4bd9-450a-9cd4-599b1b93a8b3"
         },
         "softwareSystemInstances" : [ {
           "deploymentGroups" : [ "Default" ],
@@ -155,7 +155,7 @@
           "id" : "65",
           "instanceId" : 1,
           "properties" : {
-            "structurizr.dsl.identifier" : "2e2a7a63-5803-4bc2-85ad-f102baa3962f"
+            "structurizr.dsl.identifier" : "7e576a69-f6de-41e4-a89f-0d7e05bce71e"
           },
           "softwareSystemId" : "4",
           "tags" : "Software System Instance"
@@ -167,7 +167,7 @@
       "instances" : "1",
       "name" : "Big Bank plc",
       "properties" : {
-        "structurizr.dsl.identifier" : "7fa2df66-d2fe-493d-acdf-628ad43f5281"
+        "structurizr.dsl.identifier" : "b4ee39a9-a2ae-4b60-a7f0-167cb9a748f8"
       },
       "tags" : "Element,Deployment Node,",
       "technology" : "Big Bank plc data center"
@@ -196,7 +196,7 @@
       "instances" : "1",
       "name" : "Customer's mobile device",
       "properties" : {
-        "structurizr.dsl.identifier" : "77fa95f0-fd2c-45a8-9791-1dc9dfff345c"
+        "structurizr.dsl.identifier" : "54235553-33ab-4249-b0de-a6b582f60390"
       },
       "tags" : "Element,Deployment Node",
       "technology" : "Apple iOS or Android"
@@ -226,7 +226,7 @@
         "instances" : "1",
         "name" : "Web Browser",
         "properties" : {
-          "structurizr.dsl.identifier" : "5d3b8f1f-b751-4054-8d43-70e9eada7c7a"
+          "structurizr.dsl.identifier" : "e1834893-ab5d-4dbc-83b3-177e9d2b11e4"
         },
         "tags" : "Element,Deployment Node",
         "technology" : "Chrome, Firefox, Safari, or Edge"
@@ -236,7 +236,7 @@
       "instances" : "1",
       "name" : "Customer's computer",
       "properties" : {
-        "structurizr.dsl.identifier" : "7e043b76-22c5-4f7b-8888-e972760892fd"
+        "structurizr.dsl.identifier" : "fbb118f3-3873-4516-9fdc-85683b11aa38"
       },
       "tags" : "Element,Deployment Node",
       "technology" : "Microsoft Windows or Apple macOS"
@@ -266,7 +266,7 @@
           "instances" : "1",
           "name" : "Apache Tomcat",
           "properties" : {
-            "structurizr.dsl.identifier" : "6a8c8fc5-056a-4b02-877a-27dafe27e474"
+            "structurizr.dsl.identifier" : "bc654bd9-116a-4b6b-8f6a-f613b55a1c49"
           },
           "tags" : "Element,Deployment Node",
           "technology" : "Apache Tomcat 8.x"
@@ -276,7 +276,7 @@
         "instances" : "4",
         "name" : "bigbank-web***",
         "properties" : {
-          "structurizr.dsl.identifier" : "a4abed90-76e8-41f6-ae57-a0c3823041c7"
+          "structurizr.dsl.identifier" : "f3f083c3-d36b-455c-80ff-4b99c48478e4"
         },
         "tags" : "Element,Deployment Node,",
         "technology" : "Ubuntu 16.04 LTS"
@@ -320,7 +320,7 @@
           "instances" : "1",
           "name" : "Apache Tomcat",
           "properties" : {
-            "structurizr.dsl.identifier" : "89e6a6b7-794a-44c3-bc19-85146f358664"
+            "structurizr.dsl.identifier" : "b2ca3fff-b60a-4c89-aa74-017d99d0d9bf"
           },
           "tags" : "Element,Deployment Node",
           "technology" : "Apache Tomcat 8.x"
@@ -330,7 +330,7 @@
         "instances" : "8",
         "name" : "bigbank-api***",
         "properties" : {
-          "structurizr.dsl.identifier" : "4860efa7-c8b6-4437-89fd-e9cbd058bf08"
+          "structurizr.dsl.identifier" : "5b26da9a-aa29-4b20-a579-77e1dc1275cb"
         },
         "tags" : "Element,Deployment Node,",
         "technology" : "Ubuntu 16.04 LTS"
@@ -369,7 +369,7 @@
         "instances" : "1",
         "name" : "bigbank-db01",
         "properties" : {
-          "structurizr.dsl.identifier" : "d3a377dc-8b05-456c-b755-2441f798758d"
+          "structurizr.dsl.identifier" : "0fb60cee-5bd4-4425-853c-1c77cb4be696"
         },
         "tags" : "Element,Deployment Node",
         "technology" : "Ubuntu 16.04 LTS"
@@ -401,7 +401,7 @@
         "instances" : "1",
         "name" : "bigbank-db02",
         "properties" : {
-          "structurizr.dsl.identifier" : "81fdfc04-3d67-43f2-9e69-26000d700c09"
+          "structurizr.dsl.identifier" : "4753d790-c7ef-4723-9409-c82a5595c756"
         },
         "tags" : "Element,Deployment Node,Failover",
         "technology" : "Ubuntu 16.04 LTS"
@@ -411,7 +411,7 @@
         "instances" : "1",
         "name" : "bigbank-prod001",
         "properties" : {
-          "structurizr.dsl.identifier" : "575edd0e-b332-41a7-8443-c3905110b9a6"
+          "structurizr.dsl.identifier" : "5c7293b0-f44f-4194-9a33-f95b44499f61"
         },
         "softwareSystemInstances" : [ {
           "deploymentGroups" : [ "Default" ],
@@ -419,7 +419,7 @@
           "id" : "91",
           "instanceId" : 1,
           "properties" : {
-            "structurizr.dsl.identifier" : "6093025c-bd86-46cb-a7e6-f85f57e4e02f"
+            "structurizr.dsl.identifier" : "f6d33b56-4e59-4f73-bb05-483e11fa8344"
           },
           "softwareSystemId" : "4",
           "tags" : "Software System Instance"
@@ -431,7 +431,7 @@
       "instances" : "1",
       "name" : "Big Bank plc",
       "properties" : {
-        "structurizr.dsl.identifier" : "fae83491-19a3-4213-be81-6f8aa5b2b220"
+        "structurizr.dsl.identifier" : "dc6becf2-7016-4a74-83c9-842fb6021a9f"
       },
       "tags" : "Element,Deployment Node",
       "technology" : "Big Bank plc data center"
