@@ -19,11 +19,12 @@ jobs:
       run: >-
         docker run --rm -i
         -v "$(pwd)/dsl-samples":/usr/local/working 
+        -v "$(pwd)/docs:/tmp/html"
         docker.io/stevekay72/c4-model-render:latest
-        big-bank-plc.dsl "$(pwd)/output"
+        big-bank-plc.dsl
     - name: Commit the html
       run: |
         git config --global user.name "C4Render"
-        git add output
+        git add docs
         git diff-index --quiet HEAD || git commit -m 'Update html'
         git push
