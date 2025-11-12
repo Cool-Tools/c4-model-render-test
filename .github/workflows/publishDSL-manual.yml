@@ -1,0 +1,34 @@
+name: HTML Report
+
+on:
+  workflow_dispatch:
+  # push:
+  #   branches: [ main ]
+  #   paths: 
+  #     - 'dsl-samples/**'
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+    - name: Build the report
+      run: >-
+        docker run --rm -i
+        -v "$(pwd)/dsl-samples":/usr/local/structurizr 
+        -v "$(pwd)/docs:/tmp/html"
+        structurizr/cli:latest
+        export
+        -workspace big-bank-plc.dsl
+        -format static
+        -output "/tmp/html/big-bank-plc"
+        
+    - name: Commit the html
+      run: |
+        git config --global user.name "C4Render"
+        git add -f docs
+        git diff-index --quiet HEAD || git commit -m 'Update html'
+        git push
