@@ -28,7 +28,7 @@ jobs:
         
     - name: Commit the html
       run: |
-        git config --global user.name "C4Render"
+        git config --global user.name "stevekay72@gmail.com"
         git add -f docs
-        git diff-index --quiet HEAD || git commit -m 'Update html'
+        git diff-index --quiet HEAD || git commit -m 'Update html 2'
         git push
